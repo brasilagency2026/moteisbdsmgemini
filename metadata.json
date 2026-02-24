@@ -1,0 +1,5 @@
+{
+  "name": "BDSMBRAZIL",
+  "description": "Portail geolocalisé de moteis au Bresil",
+  "requestFramePermissions": ["geolocation"]
+}
