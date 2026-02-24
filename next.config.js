@@ -29,7 +29,6 @@ const nextConfig = {
       },
     ],
   },
-  output: 'standalone',
   webpack: (config, {dev}) => {
     if (dev && process.env.DISABLE_HMR === 'true') {
       config.watchOptions = {
@@ -39,5 +38,4 @@ const nextConfig = {
     return config;
   },
 };
-
 module.exports = nextConfig;
