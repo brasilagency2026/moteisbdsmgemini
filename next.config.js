@@ -29,6 +29,7 @@ const nextConfig = {
       },
     ],
   },
+  serverExternalPackages: ['convex'],
   webpack: (config, {dev}) => {
     if (dev && process.env.DISABLE_HMR === 'true') {
       config.watchOptions = {
